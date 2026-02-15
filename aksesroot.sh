@@ -1,7 +1,7 @@
 #!/bin/bash
 # xixi
 # echo "$crot    ALL=(ALL:ALL) ALL" >> /etc/sudoers;
-wget -q -O /etc/ssh/sshd_config https://github.com/rasi1982/sc-vvip/raw/refs/heads/main/sshd_config.txt;
+wget -q -O /etc/ssh/sshd_config https://github.com/harunkl/sc-vvip/raw/refs/heads/main/sshd_config.txt;
 systemctl restart sshd;
 clear;
 echo -e "Masukkan Password:";
