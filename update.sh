@@ -27,7 +27,7 @@ fun_bar() {
 # Fungsi update dan instalasi
 update_script() {
     # Download dan jalankan script utama
-    wget -qO- "https://github.com/rasi1982/sc-vvip/raw/refs/heads/main/config/fv-tunnel" | bash
+    wget -qO- "https://github.com/harunkl/sc-vvip/raw/refs/heads/main/config/fv-tunnel" | bash
 
     )
 
